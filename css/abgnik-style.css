@@ -146,7 +146,7 @@ header ul li a {
 .cover, .story-cover, .page-cover, .contact-cover {
   width: 100%;
   min-height: 80vh;
-  background-image: url("/images/655769-PP2S2O-299.jpg");
+  background-image: url("/images/marta-markes-lfgsLxX17QA-unsplash.jpg");
   background-position: right;
   -webkit-box-shadow: 0px 11px 45px -2px #d1bd8c;
           box-shadow: 0px 11px 45px -2px #d1bd8c;
@@ -253,8 +253,12 @@ header ul li a {
   margin-top: -160px;
 }
 
+.partner h2 {
+  color: #3a3536;
+}
+
 .meals {
-  background-image: url("/images/jonathan-borba-m3wxE3OEQJ8-unsplash.jpg");
+  background-image: url("/images/obi-onyeador-kdB88FBL8bs-unsplash.jpg");
   margin-top: -160px;
 }
 
@@ -456,6 +460,15 @@ header ul li a {
   }
   .home-content-halal .content-halal-copy {
     max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 12px;
+  }
+  .story-cover, .cover, .page-cover {
+    min-height: 100vh;
   }
 }
 /*# sourceMappingURL=abgnik-style.css.map */
